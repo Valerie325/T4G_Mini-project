@@ -1,0 +1,42 @@
+
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(145, 89, 138);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 3px;
+    padding: 6px;
+    margin-top: 8px;
+    
+
+}
+
+.header{
+background-image: url(../images/image\ for\ website.jpg);
+    height: 300px;
+    padding: 30px;
+background-size: cover;
+box-shadow: 0px 4px 8px rgb(139, 132, 139);
+}
+
+.navbar a{
+    color: rgb(12, 12, 12);
+}
+
+.pic{
+    margin-top: 30px;
+}
+
+.bigpic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2px;
+}
+
+.footer{
+    margin: 20px;
+}
