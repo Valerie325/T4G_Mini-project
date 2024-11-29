@@ -59,3 +59,45 @@ margin: 30px;
     box-sizing: border-box;
     
 }
+
+.html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.body{
+    font-size: 1.6rem;
+    background: #f89adf;
+    color: #f89adf;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75rem;
+    height: 10rem;
+    background: #f8d1f8;
+}
+
+.iconcart{
+    width: 6rem;
+    border-radius: 50%;
+}
+.iconcarthover{
+    transition: 1s;
+    
+}
+
+.tranding{
+    width: 37rem;
+    height: 42rem;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+slidershadowleft
+  slidershadowright{
+    display: none;
+  }  
