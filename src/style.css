@@ -1,8 +1,7 @@
 
 
 .navbar{
-    display: flex;
-    justify-content: space-evenly;
+    
     background-color: rgb(234, 170, 225);
     font-size: 15px;
     font-weight: 600;
@@ -11,9 +10,13 @@
     padding: 6px;
     margin-top: 8px;
     text-emphasis-color: rgb(230, 228, 228);
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
     
 
 }
+
 
 .header{
 background-image: url(../images/image\ for\ website.jpg);
@@ -22,6 +25,8 @@ padding: 30px;
 background-size: cover;
 box-shadow: 0px 4px 8px rgb(139, 132, 139);
 margin: 30px;
+font-style: oblique;
+font-weight: 200;
 }
 
 .navbar a{
@@ -44,19 +49,25 @@ margin: 30px;
     width: 100%;
 }
 
-.body{
+.text{
     width: 300px;
     height: 600px;
     display: flex;
     justify-content: space-evenly;
     font-size: larger;
+    align-content: space-evenly;
+    text-align: justify;
 }
 
 .contact{
     text-align: center;
     background-image: url(../images/design.jpg);
-    padding: 10px;
-    box-sizing: border-box;
+    padding-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    
     
     
     
@@ -79,6 +90,7 @@ margin: 30px;
     background: #f8d1f8;
 } */
 
+/*
 .iconcart{
     width: 6rem;
     border-radius: 50%;
@@ -103,4 +115,104 @@ input{
     line-height: 5px;
     gap: 5px
     ;
+}
+*/
+    .featurecontainer{
+        display: flex;
+        align-items: center;
+        
+                            
+    }
+
+    .con{
+        gap: 10px;
+        justify-content: space-evenly;
+margin-bottom: 20px;      
+text-align: center;  
+    }
+
+.feature{
+    flex-wrap: wrap;
+    display: flexbox;
+}
+
+.del{
+    border-radius: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: rgb(189, 13, 71);
+    font-weight: 500;
+    border: 10px solid;
+    
+}
+
+.bigbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box{
+    width: 30%;
+    border: 30px solid;
+    margin-bottom: 30pxb;
+border-radius: 10%;
+box-sizing: border-box;
+    border-color: rgb(151, 66, 151);
+    font-weight: 500px;
+    font-size: large;
+    background-color: rgb(236, 78, 165);
+       
+}
+
+.planstext{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(119, 119, 119);
+}
+
+.li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+*.menu{
+    margin-right: 25px;
+}
+
+.menulink{
+    color: black;
+    font-size: 50px;
+}
+
+.menulink::after{
+    content: "";
+    width: 0;
+    background-color: black;
+    display: block;
+    height: 3px;
+    transition: width 0.3s ease;
+}
+
+.menulink:hover ::after{
+    width: 100%;
+}
+
+.middle{
+    display: flex;
+    font-size: large;
+    align-items: normal;
+}
+
+.featureimage{
+    display: flex;
+    width: auto;
+}
+.index.html{
+    color: rgb(223, 89, 223);
+    background-color: rgb(8, 8, 8);
 }
