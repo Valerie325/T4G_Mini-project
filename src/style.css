@@ -58,7 +58,7 @@ font-weight: 200;
     align-content: space-evenly;
     text-align: justify;
 }
-
+/* 
 .contact{
     text-align: center;
     background-image: url(../images/design.jpg);
@@ -71,7 +71,7 @@ font-weight: 200;
     
     
     
-}
+} */
 
 .html{
     font-size: 62.5%;
@@ -117,24 +117,24 @@ input{
     ;
 }
 */
-    .featurecontainer{
+    /* .featurecontainer{
         display: flex;
         align-items: center;
         
                             
-    }
+    } */
 
-    .con{
+    /* .con{
         gap: 10px;
         justify-content: space-evenly;
 margin-bottom: 20px;      
 text-align: center;  
-    }
+    } */
 
-.feature{
+/* .feature{
     flex-wrap: wrap;
     display: flexbox;
-}
+} */
 
 .del{
     border-radius: 20%;
@@ -152,24 +152,90 @@ text-align: center;
 }
 
 .box{
-    width: 30%;
+    width: 400px;
     border: 30px solid;
     margin-bottom: 30pxb;
 border-radius: 10%;
 box-sizing: border-box;
-    border-color: rgb(151, 66, 151);
+    border-color: rgb(228, 28, 201);
     font-weight: 500px;
     font-size: large;
-    background-color: rgb(236, 78, 165);
+    background-color: rgb(234, 170, 225);
+    padding: 20px;
        
 }
+.box img{
+    width: 200px auto;
+    height: 200px auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10%;
 
-.planstext{
+    
+}
+
+
+
+.box:hover{
+    border-color: rgb(252, 153, 24);
+    box-shadow: 0px 4px 8px rgb(161, 209, 241);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.4s ease;
+
+}
+.box h5{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
     margin-top: 10px;
-    color: rgb(119, 119, 119);
+    color: rgb(19, 18, 18);
+    text-shadow: 0px 4px 8px rgb(187, 90, 179);
+    
+}
+
+.box p{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(19, 18, 18);
+    text-shadow: 0px 4px 8px rgb(187, 90, 179);
+}
+
+.box h4{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(19, 18, 18);
+    text-shadow: 0px 4px 8px rgb(187, 90, 179);
+    transition: color 0.3s ease;
+   
+}
+
+.box h4 link{
+    color: rgb(189, 13, 71);
+    text-decoration: underline;
+    transition: color 0.3s ease;
+    cursor: pointer;
+
+}
+
+.box h4:hover{
+    color: rgb(224, 15, 78);
+    
+}
+.plans h2{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(26, 21, 25);
+    text-shadow: 0px 4px 8px rgb(71, 67, 71);
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 .li{
@@ -216,3 +282,326 @@ a{
     color: rgb(223, 89, 223);
     background-color: rgb(8, 8, 8);
 }
+
+.backgroundimg {
+background-color: #a04db0;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+
+.contactus h1{
+    text-align: center;
+    color: rgb(32, 27, 32);
+    font-size: 30px;
+    text-shadow: 0px 4px 8px rgb(187, 90, 179);
+}
+.backgroundimg .containercontactus{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus{
+    backdrop-filter: blur(30px) ;
+    margin: 100px auto;
+    border: 2px solid ;
+    box-shadow: 0 0 8px rgb(230, 71, 182);
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #f09cdb;
+}
+
+.contactus input{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(17, 16, 16);
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+input:focus{
+    border-color: rgb(14, 12, 13);
+}
+
+.contactus textarea{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(17, 16, 17);
+    
+}
+
+textarea:focus{
+    border-color: palevioletred;
+}
+
+.sub{
+    color: rgb(15, 14, 15);
+    background: transparent;
+    border-radius: 10px;
+    margin: 20px 90px;
+    border: 2px solid rgb(10, 9, 9);
+}
+
+.sub:focus,
+.sub:hover{
+    background-color: palevioletred;
+
+}
+
+.active{
+    background-color: palegreen;
+    color: white;
+    transition: background-color 0.3s ease;
+    padding: 0.6rem;
+    padding-top: 0.1rem;
+    border-radius: 5px;
+}
+
+.loginpage{
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+    text-align: left;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.logincontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    background: pink;
+align-items: center;
+max-width: 800px;
+overflow: hidden; 
+border: 1px solid #dddddd;
+    width: 100%;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 30px 25px rgba(230, 85, 205, 0.2);
+}
+
+.loginimage{
+    flex: 1;
+    max-width: 50%;
+}
+
+.loginimage img{
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    filter: brightness(105%);
+    object-fit: cover;
+}
+
+.loginsection{
+    flex: 1;
+    padding: 10px;
+}
+
+.loginsection h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.loginsection input{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.btnlogin{
+    padding: 10px ;
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-left: 65px;
+    width: 55%;
+}
+
+.btnlogin:hover{
+    background-color: crimson;
+}
+
+.optlogin{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.optlogin a{
+    color: white;
+    text-decoration: none;
+}
+
+.optlogin a:hover{
+    text-decoration: underline;
+}
+
+/* Signup Page Styling */
+.signuppage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #b9b5b5;
+    padding: 20px;
+}
+
+.signupcontainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: #c5317b 10px 30px 25px;
+}
+
+.signupimage {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a43bb9e1;
+}
+
+.signupimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-right: 2px solid #d3cfd5;
+    filter: brightness(55%);
+}
+
+.signupform {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #bb40bb;
+    text-align: center;
+
+}
+
+.signupform h2 {
+    font-size: 30px;
+    color: #8d3e7a;
+    margin-bottom: 20px;
+}
+
+.inputgroup {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.inputgroup .icon {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #be3c8c;
+}
+
+.inputgroup input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    color: #a0337b;
+}
+
+.signupform button {
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #a04db0, #6b2e84);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-shadow: inset 0px 0px 10px 10px #c9c8c8;
+}
+
+.signupform button:hover {
+    background: #87ddd9;
+}
+
+.signupform p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.signupform p a {
+    color: #8d3e7a;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 200px;
+}
+
+.signupform p a:hover {
+    text-decoration: underline;
+}
+
+
+.container-menu{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../images/design.jpg)
+    background-size cover;
+    
+    
+   }
+   .menu{
+    width: 25%;
+    height: auto; 
+    border: 1px solid white;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px black;
+    margin: 50px;
+    border-radius: 30px;
+    background-color: #e065b7;
+  
+   }
+   .menu img{
+    width: 100%;
+    height: 200px;
+    border-radius: 30px;
+   }
+   .menu h4{
+    text-align: center;
+    font-size: 25px;
+   
+   }
+     
