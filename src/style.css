@@ -148,12 +148,12 @@ text-align: center;
 .bigbox{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
 }
 
 .box{
-    width: 400px;
-    border: 30px solid;
+    width: 380px;
+    border: 25px solid;
     margin-bottom: 30pxb;
 border-radius: 10%;
 box-sizing: border-box;
@@ -581,10 +581,10 @@ font-size: 12px;
     background-image: url(../images/design.jpg)
     background-size cover;
     
-    
+
    }
    .menu{
-    width: 25%;
+    width: 15%;
     height: auto; 
     border: 1px solid white;
     justify-content: space-evenly;
@@ -605,3 +605,101 @@ font-size: 12px;
    
    }
      
+.video{
+    font-size: small;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 25px;
+    color: white;
+    background-color: palevioletred;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* 
+.order_confirmation.html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e85ac5;
+    color: #333;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 20px;
+
+} */
+
+.order{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 25px;
+    color: rgb(21, 19, 19);
+    background-image: url(../images/order.jfif);
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.order h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: rgb(30, 27, 27);
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+
+}
+
+.order1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 25px;
+    color: white;
+    background-color: palevioletred;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.orderform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e85ac5;
+    color: #898282;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.name{
+    margin-bottom: 5px;
+    text-align: center;
+    border: none;
+
+}

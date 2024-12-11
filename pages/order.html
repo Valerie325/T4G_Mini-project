@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="flavours.html">Flavours</a>
+            <a href="contact.html">Contact</a>
+            <a href="services.html">Services</a>
+            <a href="login.html">Login </a>
+            <!-- <a href="signup.html">Sign Up</a> -->
+            <!-- <a href="order.html" class="active">Order</a> -->
+         
+        </nav>
+    </div>
+
+    <div class="name">
+        <h1>Order Page</h1>
+    </div>
+    
+    <div class="order-form">
+    <div class="order">
+    <form action="order_confirmation.html" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" name="phone"><br>
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address"><br>
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity"><br>
+        <label for="flavour">Flavour:</label><br>
+        <input type="text" id="flavour" name="flavour"><br>
+        <label for="size">Size:</label><br>
+        <input type="radio" id="Small" name="size" value="Samll">
+        <label for="Small">Small</label><br>
+        <input type="radio" id="Medium" name="size" value="Medium">
+        <label for="Medium">Medium</label><br>
+        <input type="radio" id="Large" name="size" value="Large">
+        <label for="Large">Large</label><br>
+
+        <label for="payment">Payment Method:</label><br>
+
+        <input type="radio" id="cash" name="payment" value="cash">
+        <label for="cash">Cash</label><br>
+        <input type="radio" id="card" name="payment" value="card">
+        <label for="card">Credit Card</label><br>
+        <input type="submit" value="Submit">
+
+
+    </form>
+</div>
+    </div> 
+
+
+        <div class="footer">
+            <img src="../images/footer1.jpg" alt="">
+        </div>
+    
+</body>
+</html>
