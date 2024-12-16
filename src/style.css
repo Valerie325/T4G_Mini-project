@@ -1,4 +1,6 @@
-
+*{
+    overflow-x: hidden;
+}
 
 .navbar{
     
@@ -151,15 +153,16 @@ text-align: center;
 .bigbox{
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 10px;
+    justify-content: center;
 }
 
 .box{
-    width: 380px;
+    width: 25%;
     border: 25px solid;
-    margin-bottom: 30pxb;
+    margin-bottom: 30px;
 border-radius: 10%;
-box-sizing: border-box;
+/* box-sizing: border-box; */
     border-color: rgb(228, 28, 201);
     font-weight: 500px;
     font-size: large;
@@ -724,10 +727,19 @@ gap: 10px;
 }
 
 .serviceimg{
-    width: 30px; 
+    /* width: 30px;  */
+    width: 70%;
     height: auto;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
+    /* margin-bottom: 20px; */
+}
+
+.serviceimg img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
