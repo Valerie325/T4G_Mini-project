@@ -40,6 +40,59 @@ font-weight: 200;
    
 }
 
+.bigfoot{
+    display: flex;
+    gap: 25px;
+    background-color: rgb(214, 106, 209);
+ }
+
+ .footer{
+    width: auto;
+    margin: 20px;
+
+ }
+ .link{
+    width: 30%;
+
+ }
+ 
+ .handles{
+    width: 30%;
+ }
+.fa-facebook{
+    color: blue;
+}
+.fa-linkedin{
+    color: rgb(29, 29, 69);
+}
+.fa-youtube{
+    color: rgb(164, 22, 22);
+}
+.fa-x-twitter{
+    color: rgb(53, 46, 37);
+}
+.fa-instagram{
+    color: blueviolet;
+}
+
+.footer{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px;
+
+}
+
+.pink img{
+    width: 95%;
+    height: 100px;
+    border-radius: 100%;
+    box-shadow: 0px 4px 8px rgb(139, 132, 139);
+    margin: 10px;
+  
+}
+
 .bigpic{
     display: flex;
     flex-wrap: wrap;
@@ -47,11 +100,6 @@ font-weight: 200;
     gap: 2px;
     /* overflow: auto; */
     /* white-space: nowrap; */
-}
-
-.footer{
-    margin: 20px;
-    width: 100%;
 }
 
 .text{
@@ -153,21 +201,22 @@ text-align: center;
 .bigbox{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
 }
 
 .box{
-    width: 25%;
+    width: 300px;
     border: 25px solid;
-    margin-bottom: 30px;
-border-radius: 10%;
+    margin-bottom: 25px;
+border-radius: 9%;
 /* box-sizing: border-box; */
     border-color: rgb(228, 28, 201);
     font-weight: 500px;
     font-size: large;
-    background-color: rgb(234, 170, 225);
-    padding: 20px;
+    background-color: rgb( 234, 170, 225);
+    padding: 15px;
+
        
 }
 .box img{
@@ -184,9 +233,9 @@ border-radius: 10%;
 
 .box:hover{
     border-color: rgb(252, 153, 24);
-    box-shadow: 0px 4px 8px rgb(161, 209, 241);
+    box-shadow: 0px 2px 4px rgb(161, 209, 241);
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.010);
     transition: transform 0.4s ease;
 
 }
@@ -592,18 +641,18 @@ font-size: 12px;
    .menu{
     width: 15%;
     height: auto; 
-    /* border: 1px solid white; */
+    border: 1px solid white;
     justify-content: space-evenly;
-    /* box-shadow: 0 4px 8px black; */
+    box-shadow: 0 4px 8px black;
     margin: 50px;
-   /
-    /* background-color: #e065b7; */
+   
+    background-color : #e065b7;
   
    }
    .menu img{
     width: 100%;
     height: 200px;
-    /* border-radius: 30px; */
+    border-radius: 30px;
    }
    .menu h4{
     text-align: center;
